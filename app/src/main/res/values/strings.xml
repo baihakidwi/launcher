@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simple Text Launcher</string>
+
+    <string name="save_file">bihaika.savefile</string>
+
+    <string name="preferences_homefragment_dialog">Preferences</string>
+    <string name="wallpaper_homefragment_dialog">Change wallpaper</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textview_margin">8dp</dimen>
+    <dimen name="textsize_priority_0">52sp</dimen>
+    <dimen name="textsize_priority_1">34sp</dimen>
+    <dimen name="textsize_priority_2">20sp</dimen>
+    <dimen name="textsize_priority_3">10sp</dimen>
+
+</resources>

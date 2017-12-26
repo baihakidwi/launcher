@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_homefragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blogspot.bihaika.android.simpletextlauncher.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scr_homefragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/container_homefragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alignItems="center"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:justifyContent="center" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/progressframe_homefragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</FrameLayout>
